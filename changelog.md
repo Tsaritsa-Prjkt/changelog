@@ -1,3 +1,8 @@
+# Changelog 10/08/2026
+- Fix Keyguard issue
+- sepolicy: Grant tee access to vendor gatekeeper data
+- Enable speaker protection
+
 # Changelog 24/07/2026
 - Update Xiaomi Parts icon
 - Define proper dimensions for the keyguard indication
@@ -11,6 +16,7 @@
 
 # Android 17 Changes
 - Patch libwfdservice to load android.media.audio.common.types-V5-cpp
+- fastbootd is now enabled by default
 - Patch libwfdmmsrc_system with libgui_shim
 - Add libaudiobase dependency to libwfdmmsrc_system
 - Use Clang r563880c for kernel build

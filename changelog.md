@@ -1,3 +1,7 @@
+# Changelog 14/08/2026
+- Apply Dolby profiles only to compatible audio routes.
+- Sync kernel from latest https://github.com/LineageOS/android_kernel_qcom_sm8250
+
 # Changelog 10/08/2026
 - Fix Keyguard issue
 - sepolicy: Grant tee access to vendor gatekeeper data
@@ -15,10 +19,8 @@
 - vintf: Add HIDL NFC to FCM
 
 # Android 17 Changes
-- Patch libwfdservice to load android.media.audio.common.types-V5-cpp
+- Update WFD system stack from LA.QSSI.17.0.r1-06700-qssi.0
 - fastbootd is now enabled by default
-- Patch libwfdmmsrc_system with libgui_shim
-- Add libaudiobase dependency to libwfdmmsrc_system
 - Use Clang r563880c for kernel build
 - overlay: Add webview pinning
 - Use legacy libion implementation

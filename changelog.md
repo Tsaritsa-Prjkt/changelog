@@ -1,3 +1,10 @@
+# Changelog 20/08/2026
+- Fix mic issues in apps like WhatsApp
+- Fix low max volume in speakers
+- rootdir: Add HTSR property handlers
+- rootdir: Set correct permission for ntsync
+- Set default_network to 33 for 5G
+
 # Changelog 14/08/2026
 - Apply Dolby profiles only to compatible audio routes.
 - Sync kernel from latest https://github.com/LineageOS/android_kernel_qcom_sm8250

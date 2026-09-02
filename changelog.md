@@ -1,3 +1,18 @@
+# Changelog 02/09/2026
+- init: Set media XML codecs variant to _kona
+- overlay: Drop deprecated config_dynamic_bind_ims
+- wlan: Disable RX wakelock feature
+- overlay: Don't let any carrier default WFC mode to IMS Preferred
+- Use foreground cpuset/uclamp for gralloc
+- Use foreground uclamp for hwcomposer
+- Move runtime cpuset configuration after post_boot completed
+- Set dex2oat thread count and cpuset
+- Do not allow foreground tasks to run on CPU7
+- overlay: Use the new auto network selection UI
+- overlay: Set max network scan search time to 254
+- overlay: Overlay the config_network_selection_list_aggregation_enabled
+- switch to Kawase2 render engine blur algorithm
+
 # Changelog 20/08/2026
 - Fix mic issues in apps like WhatsApp
 - Fix low max volume in speakers
@@ -27,6 +42,7 @@
 
 # Android 17 Changes
 - Update WFD system stack from LA.QSSI.17.0.r1-06700-qssi.0
+- Drop UFFD flag
 - fastbootd is now enabled by default
 - Use Clang r563880c for kernel build
 - overlay: Add webview pinning

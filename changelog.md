@@ -1,3 +1,25 @@
+# Changelog 10/09/2026
+- Update blobs from munch OS1.0.12.0.ULMMIXM
+- Revert "sm8250-common: remove OMX"
+- props: Drop c2 input surface
+- Use HyperOS poweroff charging animation
+- parts: harden MiSound and audio effect lifecycle
+- audio: Fix dynamic USB channel mask declarations
+- Enable speaker protection
+- sepolicy: Add rule for qtidataservices_app
+- dolby: Redesign UI with Material 3 Expressive colors
+- dolby: Add per-band fine tuner to equalizer
+- dolby: Add AutoEQ headphone correction profiles contributor entry
+- dolby: Add persian translations
+- dolby: Redesign main card banner with Dolby logo
+- dolby: fix headphone surround slider stuck at 35
+- dolby: Simplify translation contributor definitions
+- dolby: Add stacked animated avatars with multi-contributor support
+- dolby: Fetch contributor profile pictures from GitHub
+- dolby: Use 2-column grid for translation contributors
+- dolby: Add callout to contribute translations in Credits dialog
+- dolby: Add translation contributors to Credits dialog
+
 # Changelog 02/09/2026
 - init: Set media XML codecs variant to _kona
 - overlay: Drop deprecated config_dynamic_bind_ims

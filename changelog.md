@@ -1,3 +1,6 @@
+# Changelog 22/09/2026
+- increase audio offload buffer size from 32KB to 64KB
+
 # Changelog 10/09/2026
 - Update blobs from munch OS1.0.12.0.ULMMIXM
 - Revert "sm8250-common: remove OMX"
@@ -63,7 +66,8 @@
 - vintf: Add HIDL NFC to FCM
 
 # Android 17 Changes
-- Update WFD system stack from LA.QSSI.17.0.r1-06700-qssi.0
+- Drop no longer used TARGET_KERNEL_NO_GCC
+- Update WFD system blobs from marvel_g A171WEH.20
 - Drop UFFD flag
 - fastbootd is now enabled by default
 - Use Clang r563880c for kernel build

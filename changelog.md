@@ -1,3 +1,27 @@
+# Changelog 20/10/2026
+- overlay: Set IWLAN data service package name
+- sepolicy: Allow init to mount the public FastRPC shell copy
+- media: Advertise Dolby Vision on AVC/HEVC decoders
+- audio: Update Dolby Spatial Audio
+- parts: add icon for hi-fi toggle inside dirac
+- parts: Adapt Material U design in some configs
+- parts: add bypass charging toggle
+- dolby: Remove Head Tracking
+- dolby: Link source build AIDL dependencies with vendor.dolby.media.c2@1.0-service
+- dolby: Link source build AIDL dependencies with dolby vision
+- dolby: sepolicy: Add platform_app_36 rules where is possible
+- dolby: sepolicy: Add AIDL rules
+- dolby: Link Dolby vision stack with AIDL prebuilts
+- dolby: Import AIDL prebuilts and Link with c2 Dolby
+- dolby: Link libswdap and libdlbvol with libspatializerparamstorage
+- dolby: Move Spatial props to system_ext
+- dolby: Enable volume leveler for Dynamic profile
+- dolby: Update Dolby volume listener stack
+- dolby: Add Standalone Dolby Spatial Audio support
+- LunarisDolby: Redesign UI with expressive typography
+- overlay: Enable min & peak refresh rate toggle in Settings
+- Update munch camera properties
+
 # Changelog 22/09/2026
 - increase audio offload buffer size from 32KB to 64KB
 

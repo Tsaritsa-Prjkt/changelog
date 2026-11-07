@@ -1,3 +1,14 @@
+# Changelog 07/11/2026
+- fstab: Drop AVB keys
+- Drop BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT
+- Match hotword grants to bundled enrollment apps
+- media: Advertise Dolby Vision on AVC/HEVC decoders
+- Switch audio HAL to V7
+- dolby: Switch to compact navbar design
+- dolby: Fix floating navbar width
+- Sync Latest kernel to qcom-sm8250
+- Declare format profiles for bluetooth 7.0 policy
+
 # Changelog 20/10/2026
 - overlay: Set IWLAN data service package name
 - sepolicy: Allow init to mount the public FastRPC shell copy

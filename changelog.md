@@ -1,3 +1,12 @@
+# Changelog 13/11/2026
+- rootdir: Remove duplicate fingerprint node declarations
+- overlay: Use stock signal strength thresholds
+- Build LiveDisplay AIDL HAL
+- Fix seccomp policy for imsrtp
+- parts: Implement VPP Picture Engine
+- Patch vpp.configstore.xml to enable VPP
+- Sync to latest kernel qcom-sm8250
+
 # Changelog 07/11/2026
 - fstab: Drop AVB keys
 - Drop BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT

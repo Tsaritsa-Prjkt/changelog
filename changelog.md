@@ -1,3 +1,10 @@
+# Changelog 19/11/2026
+- dolby: Replace home waveform with a theme-aware animated orbit
+- sepolicy: Move vendor_sysfs_palm_sensor definition to file.te
+- parts: Add KCAL color calibration
+- parts: Add per-app and system-wide resolution scaling
+- sepolicy: Fix SoundTrigger debug property typo
+
 # Changelog 13/11/2026
 - rootdir: Remove duplicate fingerprint node declarations
 - overlay: Use stock signal strength thresholds
